@@ -1,11 +1,32 @@
 .question{
   background: #fefefe;
   border-radius: 8px;
-  box-shadow:  0 2px 2px rgba(0,0,0,0.04);
+  box-shadow:  0 2px 20px  rgba(0,0,0,0.15);
   padding: 24px;
 
   & + .question{
     margin-top: 8px;
+  }
+
+  &.highlighted{
+    background: #CCE4FC;
+    border: 2px solid  #3776DF;
+
+    footer .user-info span{
+      color:#29292e;
+      font-weight: 500;
+    }
+
+  }
+
+  &.answered{
+    background: #d3ffd6;
+    border: 1px solid #0fe019;
+    footer .user-info span{
+      color:#29292e;
+      
+    }
+
   }
 
   p{
@@ -34,6 +55,10 @@
         font-size: 14px;
       }
     }
+    >div{
+      display: flex;
+      gap: 16px;
+    }
 
     button{
       border: 0;
@@ -48,16 +73,16 @@
         gap: 8px;
 
         &.liked{
-          color: #835adf;
+          color: #3776DF;
 
           svg path{
-            stroke: #835adf;
+            stroke: #3776DF;
           }
         }
       }
 
       &:hover{
-        filter: brightness(0.7);
+        filter: brightness(0.8);
       }
     }
   }

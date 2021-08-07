@@ -7,25 +7,30 @@
     aside{
         flex: 6;
     
-        background: #835afd;
+        background: #304E87;
         color: #fff;
     
         display: flex;
         flex-direction: Column;
-        justify-content: center;
+        //justify-content: center;
         align-items: left;
+        text-align: center;
+        padding: 0px 80px 20px 80px;
     
-        padding: 120px 80px;
+        div{
+          margin-bottom: 30px;
+        }
     }
     
     img{
-        max-width: 320px;
-    }
+      max-width: 800px;
+  }
 
     strong{
         font: 700 36px 'poppings', sans-serif;
         line-height: 42px;
-        margin-top: 16px;
+        margin-top: 16px;   
+
     }
 
     p{
@@ -42,6 +47,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
     }
 
     .main-content{
@@ -52,14 +58,14 @@
         align-items: stretch;
         text-align: center;
 
-
         > img {
             align-self:center;
+            max-width: 300px;
         }
 
         h2{
             font-size: 24px;
-            margin: 64px 0 24px;
+            margin: 32px 0 24px;
             font-family: 'poppins',sans-serif;
         }
 
@@ -88,13 +94,13 @@
         }
 
         a{
-            color: #e559f9
+            color: #FC246C
         }
 
     }
 
 .create-room{
-    margin-top: 64px;
+    margin-top: 32px;
     height: 50px;
     border-radius: 8px;
     font-weight: 500;

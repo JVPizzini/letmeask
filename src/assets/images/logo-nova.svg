@@ -1,0 +1,10 @@
+<svg width="200" height="100" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <path transform="rotate(-0.836219 136.339 47.8317)" stroke="null" fill="#fc246c" d="m136.33893,8.48345c23.88887,0 43.25438,17.61742 43.25438,39.34892c0,7.42628 -2.2894,14.36386 -6.22885,20.28777l6.22885,16.56394l-17.34182,-5.40076c-7.22654,4.93603 -16.1803,7.89661 -25.91256,7.89661c-23.8889,0 -43.25439,-17.61744 -43.25439,-39.34756c0,-21.7315 19.36549,-39.34893 43.25439,-39.34893l0,0.00001z" id="svg_121"/>
+  <path stroke="null" fill="#2655ad" stroke-width="0" d="m26.57866,28.51982l68.24327,0l0,0c8.94006,0 16.18739,9.5212 16.18739,21.26619c0,11.74499 -7.24734,21.26618 -16.18739,21.26618l-68.24327,0l0,0c-8.94005,0 -16.1874,-9.52119 -16.1874,-21.26618c0,-11.74499 7.24736,-21.26619 16.1874,-21.26619z" id="svg_122"/>
+  <text fill="#ffffff" x="159.17856" y="232.72922" id="svg_124" stroke-width="0" font-size="24" font-family="'nunito'" text-anchor="start" xml:space="preserve" font-weight="bold" font-style="normal" stroke="null" transform="rotate(0.261796 137.913 45.6517) matrix(1.48627 0 0 1.56551 -126.69 -306.368)">ask</text>
+  <text fill="#ffffff" x="42.29476" y="171.86099" id="svg_1" stroke-width="0" font-size="24" font-family="'nunito'" text-anchor="start" xml:space="preserve" font-weight="bold" font-style="normal" stroke="null" transform="rotate(0.261796 61.4141 47.6769) matrix(1.22069 0 0 1.31956 -29.1273 -168.644)">letme</text>
+ </g>
+</svg>
